@@ -1,9 +1,9 @@
 import img from "../../public/img.png";
 function Costsaver() {
   return (
-    <section className="min-w-screen h-screen grid items-center ">
+    <section className="min-w-screen min-h-full grid items-center  mb-8">
       <main className="grid md:grid-cols-2 container mx-auto items-center p-4">
-        <div className="mx-auto w-96">
+        <div className="mx-auto w-full">
           <span className=" font-bold">COASTSAVER</span>
           <h1 className="text-4xl font-semibold py-4">
             Coast saving in a smart way.

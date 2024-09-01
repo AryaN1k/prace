@@ -2,7 +2,7 @@ import img from "../../public/img.png";
 
 export default function Hero() {
   return (
-    <section className="min-w-screen ">
+    <section className="min-w-screen min-h-full mb-8">
       <main className="container mx-auto mt-20 grid gap-8 md:grid-cols-2 md:items-center p-2">
         <div className="grid space-y-2">
           <span className="text-gray-500 font-medium ">- FREE 30 DAYS</span>

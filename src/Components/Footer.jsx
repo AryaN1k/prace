@@ -26,7 +26,7 @@ const socialLinks = [
 ];
 function Footer() {
   return (
-    <section className="min-w-screen border-t-4">
+    <section className="min-w-screen border-t-4 ">
       <main className="container grid grid-cols-2 md:grid-cols-4 gap-8 mx-auto h-80 items-center p-4">
         <div className="">
           <h1>Lando</h1>
