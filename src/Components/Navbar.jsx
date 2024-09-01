@@ -31,7 +31,7 @@ function Navbar() {
             </li>
           ))}
         </nav>
-        <div className="flex gap-3">
+        <div className="flex gap-3 pr-4">
           <button className="">Login</button>
           <button className="bg-blue-600 border py-2 px-4 rounded-md text-white font-normal">
             SignUp
