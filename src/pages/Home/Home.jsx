@@ -4,8 +4,8 @@ import Smartsave from "../../Components/Smartsave";
 import Solution from "../../Components/Solution";
 import Step from "../../Components/Step";
 import Testo from "../../Components/Testo";
-import Layout from "./../../Components/Layout/Layout";
-import Getstarted from "./../../Components/Getstarted";
+import Layout from "../../Components/Layout/Layout";
+import Getstarted from "../../Components/Getstarted";
 
 const Home = () => {
   return (

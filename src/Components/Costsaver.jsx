@@ -1,4 +1,4 @@
-import img from "../../public/img.png";
+import img from "/coast_saving.avif";
 function Costsaver() {
   return (
     <section className="min-w-screen min-h-full grid items-center  mb-8">

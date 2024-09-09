@@ -1,4 +1,4 @@
-import img from "../../public/img.png";
+import img from "/community.avif";
 
 function Step() {
   return (

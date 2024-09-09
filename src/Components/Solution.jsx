@@ -1,4 +1,4 @@
-import img from "../../public/img.png";
+import img from "/solution.avif";
 function Solution() {
   return (
     <section className="min-w-screen min-h-fulln grid items-center justify-items-center mb-8">

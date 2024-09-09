@@ -1,26 +1,35 @@
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const navItems = [
-  { name: "Home", path: "/home" },
+  { name: "Home", path: "/" },
   { name: "Pricing", path: "/pricing" },
-  { name: "About Us", path: "/About Us" },
+  { name: "About Us", path: "/Aboutus" },
   { name: "Contact", path: "/contact" },
 ];
 
 function Navbar() {
   const [open, setOpen] = useState(false);
+  const navigate = useNavigate();
+  // create a fun
   const toggle = () => {
     setOpen(!open);
     console.log("click", open);
+  };
+
+  const handleSignUp = () => {
+    navigate("/signup");
+  };
+  const handleLogin = () => {
+    navigate("/login");
   };
 
   return (
     <section className="flex items-center justify-between min-w-screen py-7 ">
       <header className="container m-auto flex items-center justify-between w-full ">
         <div className="text-3xl flex mb-[5px] pl-5">
-          <h1 className="font-semibold">Lando</h1>
+          <h1 className="font-semibold">Logo</h1>
         </div>
         <nav className="hidden lg:flex flex-1 gap-4 mx-auto ml-7 pl-7">
           {navItems.map((item, index) => (
@@ -32,15 +41,21 @@ function Navbar() {
           ))}
         </nav>
         <div className="flex gap-3 pr-4">
-          <button className="">Login</button>
-          <button className="bg-blue-600 border py-2 px-4 rounded-md text-white font-normal">
+          <button onClick={handleLogin} className="">
+            Login
+          </button>
+
+          <button
+            onClick={handleSignUp}
+            className="bg-blue-600 border py-2 px-4 rounded-md text-white font-normal"
+          >
             SignUp
           </button>
         </div>
       </header>
       {/* Mobile Nav bar */}
       <div className="mr-7 lg:hidden">
-        <RxHamburgerMenu
+        <RxHamburgerMenu // menu icon
           className="text-xl cursor-pointer transition-all duration-500 ease-linear"
           onClick={toggle}
         />

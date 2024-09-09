@@ -1,4 +1,4 @@
-import img from "../../public/img.png";
+import img from "/work_with_us.avif";
 function Smartsave() {
   return (
     <section className="min-w-screen min-h-full grid items-center mb-8">

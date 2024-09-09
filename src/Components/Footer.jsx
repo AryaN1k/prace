@@ -29,8 +29,8 @@ function Footer() {
     <section className="min-w-screen border-t-4 ">
       <main className="container grid grid-cols-2 md:grid-cols-4 gap-8 mx-auto h-80 items-center p-4">
         <div className="">
-          <h1>Lando</h1>
-          <span>2021@Lando </span>
+          <h1>Logo</h1>
+          <span>2021@Logo </span>
           <span>All right reserved</span>
         </div>
         <div className="mt-7 md:mt-0">

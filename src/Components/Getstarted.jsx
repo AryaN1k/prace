@@ -1,4 +1,4 @@
-import img from "../../public/img.png";
+import img from "/get_started.avif";
 function Getstarted() {
   return (
     <section className="min-w-screen min-h-full grid items-center justify-items-center mb-8">
@@ -6,7 +6,7 @@ function Getstarted() {
         <div className=" py-2">
           <div className="mb-3">
             <h1 className="text-4xl md:text-6xl font-semibold">Get Started with </h1>
-            <span className="text-4xl md:text-6xl font-semibold ">Lando today</span>
+            <span className="text-4xl md:text-6xl font-semibold ">Logo today</span>
           </div>
           <p>Start optimizing your process today.</p>
           <div className="mt-5">
